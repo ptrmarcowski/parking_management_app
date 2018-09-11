@@ -9,7 +9,7 @@ public class CarsList implements Serializable{
     public List<Vehicle> currentList = new ArrayList<Vehicle>();
     public List<Double> chargesList = new ArrayList<>();
     public List<Integer> freePlaces = new ArrayList<>();
-    final int MAX_SIZE = 10;
+    final int MAX_SIZE = 100;
 
     public void makePlaces(){
         for(int i = 1; i<=MAX_SIZE; i++){
